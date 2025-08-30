@@ -14,3 +14,4 @@ __pycache__/
 .voice/
 venv
 koboldcpp-mac-arm64
+.pio
