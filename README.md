@@ -104,6 +104,14 @@ Irrespective of what you use for development, the quickest & least error prone s
 * Build and upload
 * If not reset, press the reset button. In Serial Monitor you can also send `r` to reset the device (assuming it is already booted)
 
+## 📟 Firmware alternative build process
+Or simply use VSCode with PlatformIO extension instead of cloning this to a wrong location that does not exist under cool OSes and managing all dependencies by hand.
+The [platformio.ini](platformio.ini) file should have all the necessary settings and deps.
+
+Step for changing your cedentials.h remains.
+
+Current Status: compiles - I don't have any HW to test it
+
 ## 🧩 Hardware 
 
 <p float="left">
