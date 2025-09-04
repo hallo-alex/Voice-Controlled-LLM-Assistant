@@ -14,12 +14,15 @@
 #define HOST_NAME "onju-coral"
 
 #include "custom_boards.h"
-#include "credentials.h"
+// Seems unnecessary
+//#include "credentials.h"
 
 #define TOUCH_EN
 // Wi-Fi settings - edit these in credentials.h
-const char *ssid = WIFI_SSID;
-const char *password = WIFI_PASSWORD;
+
+// Seems unnecessary
+//const char *ssid = WIFI_SSID;
+//const char *password = WIFI_PASSWORD;
 
 Adafruit_NeoPixel leds(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
