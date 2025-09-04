@@ -108,7 +108,7 @@ Irrespective of what you use for development, the quickest & least error prone s
 Or simply use VSCode with PlatformIO extension instead of cloning this to a wrong location that does not exist under cool OSes and managing all dependencies by hand.
 The [platformio.ini](platformio.ini) file should have all the necessary settings and deps.
 
-Step for changing your cedentials.h ~~remains.~~ seems to be not necessary. At least with the version of Wifimanager that comes with platformIO.
+Step for changing your credentials.h ~~remains.~~ seems to be not necessary. At least with the version of Wifimanager that comes with platformIO.
 
 Current Status: compiles - I don't have any HW to test it
 
